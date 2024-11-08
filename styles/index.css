@@ -1,18 +1,58 @@
 nav a{
         float: right;
 }
-#content-container{
+html, body{
+    height:100%;
+    width: 100%;
+}
+main{
     margin-inline-start: 30%;
     margin-inline-end: 30%;
+
 }
 
 header{
-    padding: 80px;
-    text-align: center;
+height: 100%;
+position: relative;
+
+}
+header h1{
+    font-size: 6rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header p{
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+header p.scroll{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#project-container{
+
+.project-container{
     display: grid;
     grid-template-columns:auto auto;
-    column-gap: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+.project-thumbnail{
+    text-align: center;
+    padding: 100px;
+    border: 1px solid black;;
+}
+footer{
+text-align: center;
+    padding: 50px;
 }
