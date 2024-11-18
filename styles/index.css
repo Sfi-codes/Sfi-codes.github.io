@@ -26,12 +26,14 @@ header h1{
 }
 header p{
     margin: 0;
+    font-size: 1.2rem;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -80%);
 }
 header p.scroll{
+    font-size: 1rem;
     margin: 0;
     position: absolute;
     top: 90%;
@@ -51,6 +53,9 @@ header p.scroll{
     text-align: center;
     padding: 100px;
     border: 1px solid black;;
+}
+.project-text{
+    font-size: 1.2rem;
 }
 footer{
 text-align: center;
