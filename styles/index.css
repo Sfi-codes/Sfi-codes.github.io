@@ -2,6 +2,7 @@ nav a{
         float: right;
 }
 html, body{
+    font-family: sans-serif;
     height:100%;
     width: 100%;
 }

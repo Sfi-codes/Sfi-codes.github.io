@@ -7,7 +7,7 @@ const projects = [
   {
     projectLink: `project-plant-trees.html`,
     thumbnail: "PlantTrees",
-    projectText: "Kotlin Mobile App",
+    projectText: "Android Kotlin and Java App",
   },
   {
     projectLink: `project-clash.html`,
@@ -16,13 +16,18 @@ const projects = [
   },
   {
     projectLink: `project-event-website.html`,
-    thumbnail: "Events Website",
-    projectText: "PHP Website",
+    thumbnail: "Business Website",
+    projectText: "MERN Website",
   },
   {
     projectLink: `project-task-management.html`,
     thumbnail: "Task Management",
     projectText: "MERN Application",
+  },
+    {
+    projectLink: `project-secure-chat.html`,
+    thumbnail: "Secure Chat",
+    projectText: "Java Application",
   },
 ];
 
