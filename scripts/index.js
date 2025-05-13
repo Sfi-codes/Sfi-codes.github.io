@@ -15,9 +15,9 @@ const projects = [
     projectText: "C# Multiplayer Game",
   },
   {
-    projectLink: `project-event-website.html`,
+    projectLink: `project-business-website.html`,
     thumbnail: "Business Website",
-    projectText: "MERN Website",
+    projectText: "React Website",
   },
   {
     projectLink: `project-task-management.html`,
